@@ -95,3 +95,89 @@
 // console.log("Result: ", mixResult);
 
 // Result of doing calculation with numbers and strings: 
+// Converts number to string and concatenates it with them:
+
+// let numb = 2;
+// let string = '12';
+// let result = numb + string;
+// console.log("Result: ", result); // 212
+// console.log(typeof result); // string
+
+// const result2 = '12' + 2;
+// console.log("Result: ", result2); // 122
+// console.log(typeof(result2)); // string
+
+// Using operators, js converts them into numbers before doing maths:
+// for examplles:
+
+// let number = '20';
+// let number2 = 5;
+// let subs = number - number2;
+// console.log("Subtraction: ", subs); // 15
+// console.log(typeof subs); // number
+
+// let multi = number * number2;
+// console.log("Multiplication: ", multi); // 100
+// console.log(typeof multi); // number
+
+// let div = number2 / number;
+// console.log("Result: ", div); // 0.25
+// console.log(typeof div); // number
+// let div2 = number / number2;
+// console.log("Second result: ", div2); // 4
+
+// Using string with arithmetic operators: 
+
+// let str = "ab";
+// let result = str - 2;
+// console.log(result); // NaN
+// console.log(typeof result); // number
+
+// let result2 = str * 2;
+// console.log(result2); // NaN
+// console.log(typeof result2); // number
+
+// let result3 = str / 2;
+// console.log(result3); // Nan 
+// console.log(typeof(result3)); // number
+
+// Using boolean with arithmetic operators sign:
+// let firstNumber = 1;
+// let result = true + firstNumber;
+// console.log(result); //2
+// console.log(typeof result); // number
+
+// let booleanResult = false + firstNumber;
+// console.log(booleanResult); // 1
+// console.log(typeof booleanResult); // number
+
+// let strBoolean = 'Hell' + true;
+// console.log(strBoolean); // "Helltrue"
+// // converts boolean to string and concatenates
+
+// console.log(typeof strBoolean); // string
+
+// Using null and undefined with arithmetic operators:
+
+let nullResult = null + 5;
+console.log(nullResult); // 5
+console.log(typeof nullResult); // number
+
+let undefineResult = undefined + 2;
+console.log(undefineResult); // NaN
+console.log(typeof undefineResult); // number
+
+let divResult = null / 5;
+console.log(divResult); // 0
+console.log(typeof divResult);
+
+let multiResult = null * 5;
+console.log(multiResult); // 0
+console.log(typeof multiResult);
+
+let boolResult = true / 5;
+console.log(boolResult); // 0.2
+
+let booleanResult2 = false / 2;
+console.log(booleanResult2); // 0
+
