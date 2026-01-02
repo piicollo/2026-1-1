@@ -14,6 +14,26 @@
 // 5.You should have a variable named fifthResult that correctly multiplies two numbers to get the product 20. Replace the string currently used in the expression with a number.
 // 6.You should have a variable named sixthResult that correctly adds two numbers to produce the value 22. Replace the null currently used in the expression with a number.
 
+// const firstResult = 5 + "10";
+// console.log(`5 + 10 = ${firstResult}`);
+
+// const secondResult = "Eight" - 5;
+// console.log(`8 - 5 = ${secondResult}`);
+
+// const thirdResult = true + 5;
+// console.log(`1 + 5 = ${thirdResult}`);
+
+// const fourthResult = false + 8;
+// console.log(`0 + 8 = ${fourthResult}`);
+
+// const fifthResult = "10" * 2;
+// console.log(`10 * 2 = ${fifthResult}`);
+
+// const sixthResult = null + 22;
+// console.log(`0 + 22 = ${sixthResult}`);
+
+// Solving above bug using simple numeric numbers: 
+
 const firstResult = 5 + 10;
 console.log(`5 + 10 = ${firstResult}`);
 
