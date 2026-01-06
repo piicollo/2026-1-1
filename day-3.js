@@ -61,7 +61,7 @@
 // console.log(a > 20); // false
 // console.log(20 > b); //true
 
-// The greater than or equal operator:
+// The greater than or equal operator ( >= ):
 // let a = 12;
 // let b = 3;
 // let c = 11;
@@ -69,5 +69,24 @@
 // console.log(b >= c); // false
 // console.log(c >= a); // false
 
-console.log(5 >= 3); // true
+// console.log(5 >= 3); // true
 
+// the less then operator ( < ):
+
+// let a = 6;
+// let b = 9;
+// console.log(a < b); // true
+// console.log(b < a); // fale
+
+// console.log('5' < 2); // false
+// console.log('2' < 5); // true
+// console.log('a' < 2); // false
+// console.log(2 < 'a'); // false
+
+// The less then or equal operator ( <= ):
+let a = 2;
+let b = 3;
+console.log(a <= b); // true
+console.log(b <= a); // fase
+let c = 3;
+console.log(b <= c); // ture
