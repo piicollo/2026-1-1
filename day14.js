@@ -1,39 +1,39 @@
 
-// if else statement:
+//if else statement:
 
-// let annualIncome = 60000;
-// if (annualIncome >= 50000) {
-//     console.log("Eligible for basic loan rates.");
-// } else if (annualIncome >= 100000) {
-//     console.log("Eligible for standard rates.");
-// } else if (annualIncome >= 200000) {
-//     console.log("Eligible for Premium rates.");
-// } else {
-//     console.log("Not eligible due to insufficient income.");
+let annualIncome = 60000;
+if (annualIncome >= 50000) {
+    console.log("Eligible for basic loan rates.");
+} else if (annualIncome >= 100000) {
+    console.log("Eligible for standard rates.");
+} else if (annualIncome >= 200000) {
+    console.log("Eligible for Premium rates.");
+} else {
+    console.log("Not eligible due to insufficient income.");
     
-// }
+}
 
 // Example 2:
 
-// let cScore = 250;
-// let aIncome = 60000;
+let cScore = 250;
+let aIncome = 60000;
 
-// if (cScore >= 250 && aIncome >= 60000) {
-//     console.log("Eligible for basic loan rates.");
+if (cScore >= 250 && aIncome >= 60000) {
+    console.log("Eligible for basic loan rates.");
     
-// } else if (cScore >= 500 && aIncome >= 100000) {
-//     console.log("Eligible for standard loan rates.");
+} else if (cScore >= 500 && aIncome >= 100000) {
+    console.log("Eligible for standard loan rates.");
     
-// } else if (cScore >= 750 && aIncome >= 250000) {
-//     console.log("Eligible for premium loan rates.");
+} else if (cScore >= 750 && aIncome >= 250000) {
+    console.log("Eligible for premium loan rates.");
     
-// } else if (cScore > 1000 && aIncome >= 500000) {
-//     console.log("Eligible for Home loan.");
+} else if (cScore > 1000 && aIncome >= 500000) {
+    console.log("Eligible for Home loan.");
     
-// } else {
-//     console.log("Not eligible due to insuffient income.");
+} else {
+    console.log("Not eligible due to insuffient income.");
     
-// }
+}
 
 // Example 3
 
